@@ -1,0 +1,335 @@
+body {
+    background-color: #16261a;
+    font-family: Titillium Web, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    letter-spacing: .025em;
+}
+
+.logo__img {
+    /* max-height: 50px; */
+    width: 30%;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-link-outline {
+    transition: all .2s ease-out;
+    transition-duration: .15s;
+    border: 2px solid #35f0d0;
+    color: #55f1d7;
+    border-radius: 9999px;
+}
+
+.nav-link-outline:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.space-x-8>:not([hidden])~:not([hidden]) {
+    margin-left: calc(2rem * 1);
+}
+
+.text-flashy {
+    background: linear-gradient(40deg, #e09d2a 10%, #f7fe0c 40%, #2af787 60%, #00f0d0 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    -webkit-animation: cycleBackgroundPos 6s steps(100) infinite;
+    animation: cycleBackgroundPos 6s steps(100) infinite;
+}
+
+.intro__video--play--button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 12%), 0 3px 3px 0 rgb(0 0 0 / 14%);
+    background: rgba(76, 36, 159, .8);
+    border-radius: 50%;
+    padding: 1rem;
+    height: 54px;
+    width: 54px;
+    transition: all .2s ease-out;
+}
+
+.intro__video {
+    border: 0;
+    padding: 0;
+}
+
+.intro__video:hover .intro__video--play--button {
+    background: rgba(53, 240, 208, .8);
+}
+
+.intro__video--play--icon {
+    margin-right: -6px;
+    height: 42px;
+    width: 35px;
+}
+
+.intro__button {
+    transition: all .15s ease-out;
+    color: #fff;
+    border-radius: 9999px;
+}
+
+.intro__button:hover {
+    transform: scale(1.02) translateY(-3px);
+    color: #fff;
+}
+
+#videoIntro .modal-content {
+    background-color: transparent;
+    border: 0;
+}
+
+.text-gray {
+    color: #16261a;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #f7b63a;
+    border-color: #f7b63a;
+}
+
+.bg-card {
+    background-color: #edd;
+    border-radius: .5rem;
+}
+
+.awarded__img {
+    width: 4rem;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #31322c;
+    border-color: #31322c;
+}
+
+.partner__img {
+    max-height: 44px;
+}
+
+.card__bg {
+    transition: all .2s ease-out;
+    background-color: #de00ff;
+    border-radius: .5rem;
+}
+
+.card__bg:hover {
+    background-color: #16261a;
+    box-shadow: 0 10px 25px -1px rgb(0 0 0 / 10%), 0 10px 10px 5px rgb(0 0 0 / 4%);
+    transform: translateY(0) scale(1.05) translateX(0);
+}
+
+.card__bg-2 {
+    background-color: #16261a;
+    border-radius: .75rem;
+}
+
+.fs-small {
+    font-size: .875rem;
+}
+
+.protocol__icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn__outline {
+    transition: all .15s ease-out;
+    color: #35f0d0;
+    border: 2px solid #35f0d0;
+    border-radius: 99999px;
+}
+
+.btn__outline:hover {
+    transform: scale(1.02) translateY(-3px);
+    background-color: #32025e;
+    color: #1ef7d6;
+    border-color: #1ef7d6;
+}
+
+.bg__blue {
+    background-color: #16261a;
+}
+
+.bg__blue-2 {
+    background-color: #16261a;
+}
+
+#how_it_work {
+    background-image: url('../images/bg-how-art-waves.jpg');
+    background-position: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-info {
+    color: #16261a !important;
+}
+
+.how-it-work__item {
+    background-color: #16261a;
+    border-radius: .5rem;
+}
+
+.BIG_token__button {
+    color: #35f0d0;
+    transition: all .15s ease-out;
+    border: 0;
+    border-radius: 9999px;
+}
+
+.BIG_token__button:hover {
+    background-color: #32025e;
+    transform: scale(1.02) translateY(-3px);
+    color: #35f0d0;
+}
+
+.support-by__img {
+    max-height: 44px;
+    height: 8rem;
+}
+
+.social__icon {
+    height: 2rem;
+}
+
+.involved {
+    background-image: linear-gradient(40deg, #16261a 30%, #16261a) !important;
+    border-radius: .5rem;
+}
+
+.involved__bg {
+    background-color: #2d0a5a;
+}
+
+.involved__bg:hover {
+    background-color: #401c94;
+}
+
+.social__img {
+    width: 1rem;
+}
+
+.text-gray-2 {
+    color: #fff;
+    transition: all .15s ease-out;
+}
+
+a.text-gray-2:hover {
+    color: white;
+}
+
+.list-unstyled a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social_icons {
+    text-align: center;
+}
+
+#involved a {
+    color: #16261a;
+    text-decoration: underline;
+    font-size: 33px;
+    margin: 0px 10px;
+}
+
+#footer {
+    background-color: #16261a;
+}
+
+.footer__menu {
+    border-top: 1px solid #16261a;
+}
+
+.airdrop__input {
+    background-color: transparent;
+    color: white !important;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.airdrop__input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+@keyframes cycleBackgroundPos {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .BIG_Bigether__line {
+        max-width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .intro__video--play--button {
+        height: 74px;
+        width: 74px;
+    }
+    .BIG_Bigether__line {
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .security__button {
+        width: 100%;
+    }
+    .logo {
+        text-align: center;
+    }
+    .airdrop__wrap1 .px-4 {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .space-x-8> :not([hidden])~ :not([hidden]) {
+        margin-left: calc(0.5rem * 1);
+    }
+    .font_contract {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 422px) {}
+
+@media (max-width: 375px) {}
+
+.fill h2 {
+    font-size: 30px;
+    text-align: center;
+}
